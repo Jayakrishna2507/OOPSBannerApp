@@ -1,5 +1,5 @@
 /**
- * @author [A Rajesh Kanna]
+ * @author [JAYAKRISHNA M]
  * @version 1.0
  */
 public class OOPSBannerApp {
