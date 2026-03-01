@@ -1,21 +1,21 @@
 /**
  * @author [JAYAKRISHNA M]
- * @version 1.0 UC5-Inline Array Initialization
+ * @version 1.0
  */
 public class OOPSBannerApp {
+
     public static void main(String[] args) {
         String[] lines = {
-            String.join(" ", " ***** ", " ***** ", " ****** ", " ***** "),
-            String.join(" ", "*     *", "*     *", "*     *", "*     *"),
-            String.join(" ", "*     *", "*     *", "****** ", "*      "),
-            String.join(" ", "*     *", "*     *", "*      ", " ***** "),
-            String.join(" ", "*     *", "*     *", "*      ", "      *"),
-            String.join(" ", "*     *", "*     *", "*      ", "*     *"),
-            String.join(" ", " ***** ", " ***** ", "*      ", " ***** ")
+            String.join(" ","  ***   ","  ***  ","******","    ***** "),
+            String.join(" ","**    **","**   **","*    *"," **      "),
+            String.join(" ","**    **","**   **","*    *","**       "),
+            String.join(" ","**    **","**   **","****** ","   *****  "),
+            String.join(" ","**    **","**   **","**    ","         ** "),
+            String.join(" ","**    **","**   **","**    "," **      ** "),
+            String.join(" ","  ***   ","  ***  ","**    ","    *****      ")
         };
-
-        for (String line : lines) {
-            System.out.println(line);
-        }
-    }
+   for (String line : lines) {
+    System.out.println(line);
+   }
+}
 }
